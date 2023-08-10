@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -pie 3-main.c -o cisfun
