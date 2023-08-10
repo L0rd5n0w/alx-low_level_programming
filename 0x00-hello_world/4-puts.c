@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * my_function - This is a description
+ * main - Makes use of the puts function to print out a string
  */
 
 int main(void)
