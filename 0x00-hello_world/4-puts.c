@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - Makes use of the puts function to print out a string
- */
+* main - display output using printf
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
