@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* This will output what is below  */
+/**
+ * my_function - This is a description
+ */
 
 int main(void)
 {
