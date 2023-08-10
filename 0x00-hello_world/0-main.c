@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+    printf("Get something")
     return (0);
 }
