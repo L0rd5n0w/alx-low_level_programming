@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    printf("Get something")
+    printf("Get something");
     return (0);
 }
