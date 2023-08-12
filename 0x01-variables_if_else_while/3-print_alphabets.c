@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-
 	int q;
+
+	i = 0;
 
 	q = 0;
 
