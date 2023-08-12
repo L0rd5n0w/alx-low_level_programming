@@ -15,8 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int c = strlen(n);
-	int curl = n[c - 1];
+	int curl = n % 10;
 
 	if (curl > 5)
 	{
