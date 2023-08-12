@@ -11,11 +11,19 @@ int main(void)
 
 	i = 0;
 
+	int q;
+
+	q = 0;
+
 	while (i < 26)
 	{
 		putchar('a' + i);
-		putchar('A' + i);
 		i++;
+	}
+	while (q < 26)
+	{
+		putchar('A' + q);
+		q++;
 	}
 	putchar('\n');
 	return (0);
