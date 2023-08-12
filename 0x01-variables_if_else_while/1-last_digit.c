@@ -11,11 +11,12 @@
 int main(void)
 {
 	int n;
+	int curl;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int curl = n % 10;
+	curl = n % 10;
 
 	if (curl > 5)
 	{
@@ -27,7 +28,7 @@ int main(void)
 	}
 	else if (curl < 6 && curl != 0)
 	{
-		print("Last digit of %d is %d and is less than 6 and not 0\n", n, curl);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, curl);
 	}
 	return (0);
 }
