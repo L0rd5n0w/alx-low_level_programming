@@ -7,8 +7,5 @@
  */
 int add(int a, int b)
 {
-	int kol;
-
-	kol = a + b;
-	_putchar(kol);
+	return(a + b);
 }
