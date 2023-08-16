@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include "main.h"
 /**
  *print_alphabet -code to print alphabet
  *Return: (0) Always
