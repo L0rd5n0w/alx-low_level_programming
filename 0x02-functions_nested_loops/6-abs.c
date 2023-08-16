@@ -4,7 +4,7 @@
  *@n: parameter
  *Return: (0) Always
  */
-int _abs(int)
+int _abs(int r)
 {
-	return (n < 0) ? -n :n;
+	return (r < 0) ? -r :r;
 }
