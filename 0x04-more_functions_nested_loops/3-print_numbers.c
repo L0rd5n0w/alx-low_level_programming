@@ -1,4 +1,4 @@
-#inlclude "main.h"
+#include "main.h"
 /**
  *print_numbers -code to check
  *Return:(0) Always
