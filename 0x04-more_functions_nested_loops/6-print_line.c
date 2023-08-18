@@ -2,7 +2,7 @@
 /**
  *print_line -code to print
  *Return:(0)Always
- *
+ *@n: parameter
  */
 void print_line(int n)
 {
