@@ -1,16 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 /**
- *print_rev -code to reverse
+ *print_rev -code to reverse with new line
  *Return:(0)always
  *@s: parameter
  */
 void print_rev(char *s)
 {
-	int q = _strlen(s);
-
-	for (int i = q - 1; i >= 0; i--)
+	if (*s != '\0')
 	{
-		_putchar(s[i]);
+		print_rev(s + 1);
+		_putchar(*s);
 	}
-	_putchar('\n');
 }
