@@ -1,24 +1,23 @@
 #include "main.h"
 /**
- *_strcmp - function to
- *Return:(0)Always
- *@s1: parameter
- *@s2: parameter
+ * _strcmp - compare two strings
+ * @s1: parameter 1
+ * @s2:parameter 2
+ * Return: int
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 != '\0' || *s2 != '\0')
+	int i;
+
+	for (i = 0; s1[i] != '\0' || s2[i] != '\0' ; i++)
 	{
-		if (*s1 != *s2)
+		if (s1[i] != s2[i])
 		{
-			return ((*s1 < *s2) ? -15 : 15);
+			if (s1[i] < s2[i])
+				return (s1[i] - s2[i]);
+			else if (s2[i] < s1[i])
+				return (s1[i] - s2[i]);
 		}
-		else if (*s1 > *s2)
-		{
-			return (1);
-		}
-		s1++;
-		s2++;
 	}
 	return (0);
 }
