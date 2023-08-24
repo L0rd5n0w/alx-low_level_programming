@@ -3,7 +3,7 @@
 
 /**
  *cap_string - Capitalizes all words of a string
- *@str: char param
+ *@ret: char param
  *Return: 0
  */
 

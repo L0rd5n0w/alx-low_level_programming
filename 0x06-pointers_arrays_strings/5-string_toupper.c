@@ -2,7 +2,7 @@
 /**
  **string_toupper -function to change string to upper
  *Return:(0)Always
- *
+ *@s: parameter
  */
 char *string_toupper(char *s)
 {
