@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 /**
  *main -function
  *Return(0)Always
@@ -12,6 +10,6 @@ int main(int argc, char* argv[])
 	int i = 0;
 
 	(void) argv;
-	printf("%s\n", argv[i]);
+	printf("%d\n", argv - 1);
 	return (0);
 }
