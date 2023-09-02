@@ -2,13 +2,17 @@
 /**
  *main -function
  *Return(0)Always
+ *@argv : parameter
  *@argc: parameter
- *@argv: parameter
  */
 int main(int argc, char *argv[])
 {
-	(void) argc;
+	int i;
 
-	printf("%s\n", argv[0]);
+	(void)argc;
+	for (i = 0;, i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }
