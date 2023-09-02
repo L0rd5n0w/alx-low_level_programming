@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main -function
- *Return(0)Always
+ *Return:(0)Always
  *@argc: parameter
  *@argv: parameter
  */
