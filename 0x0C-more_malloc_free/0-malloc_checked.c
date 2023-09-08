@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  *malloc_checked -function
  *Return:(0)Always
@@ -12,7 +13,7 @@ void *malloc_checked(unsigned int b)
 	intake = malloc(b);
 	if (intake == NULL)
 	{
-		return (98);
+		exit(98);
 	}
 	else
 	{
