@@ -4,8 +4,7 @@
 /**
  *init_dog -function
  *Return:(0)Always
- *struct dog - parameter
- *d: parameter
+ *@d: parameter
  *@name: parameter
  *@age: parameter
  *@owner: parameter
